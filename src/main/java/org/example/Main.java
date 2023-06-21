@@ -14,6 +14,9 @@ public class Main {
         System.out.println("Make: " + myCar.getMake());
         System.out.println("Model: " + myCar.getModel());
         System.out.println("Year: " + myCar.getYear());
-
+//2.1.2
+        Rectangle rectangle = new Rectangle(4.5, 3.2);
+        double area = rectangle.getArea();
+        System.out.println("Area: " + area);
     }
 }
